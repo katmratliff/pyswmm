@@ -561,22 +561,24 @@ class Subcatchment(object):
         Subcatchment Flow Stats. The stats returned are rolling/cumulative.
         Indeces are as follows:
 
-        +-------------------+
-        | precipitation     |
-        +-------------------+
-        | runon             |
-        +-------------------+
-        | evaporation       |
-        +-------------------+
-        | infiltration      |
-        +-------------------+
-        | runoff            |
-        +-------------------+
-        | peak_runoff_rate  |
-        +-------------------+
-        | pollutant_buildup |
-        +-------------------+
-
+        +--------------------+
+        | precipitation      |
+        +--------------------+
+        | runon              |
+        +--------------------+
+        | evaporation        |
+        +--------------------+
+        | infiltration       |
+        +--------------------+
+        | runoff             |
+        +--------------------+
+        | peak_runoff_rate   |
+        +--------------------+
+        | pollutant_buildup  |
+        +--------------------+
+        | ponded_pollut_conc |
+        +--------------------+
+        
         :return: Group of Stats
         :rtype: dict
         """
